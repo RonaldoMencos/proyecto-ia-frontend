@@ -1,0 +1,4 @@
+<p-button *ngIf="!iniciado" icon="pi pi-fw pi-microphone" severity="secondary" (click)="startListening()"  size="large"></p-button>
+<p-button *ngIf="iniciado" icon="pi pi-fw pi-stop" severity="danger" (click)="stopListening()"  size="large"></p-button>
+<p-toast key="tst"></p-toast>
+
